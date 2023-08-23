@@ -24,7 +24,7 @@ steps:
   displayName: Create a Plan
   inputs:
     command: plan
-    commandOptions: "--var-file=loga.tfvars --out=tfplan"
+    commandOptions: "--out=tfplan"
     publishPlanResults: tfplan
   env:
     ARM_CLIENT_ID: $(ARM_CLIENT_ID)
